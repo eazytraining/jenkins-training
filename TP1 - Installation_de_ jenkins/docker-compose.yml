@@ -4,7 +4,7 @@ services:
     privileged: true
     user: root
     container_name: jenkins-launch
-    image: jenkins/jenkins:2.490-jdk17
+    image: jenkins/jenkins:2.528.1-lts-jdk17
     restart: always
     ports:
       - 8080:8080
